@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <!--form starts-->
+    <form action="https://www.google.co.in/" method="GET">
+        <fieldset>
+            <!--start of grouping elements-->
+            <legend> Your Details</legend>
+            <label>Name:</label>
+            <input type="text" required="required" /><br>
+            <label>Email:</label>
+            <input type="email" required="required" />
+        </fieldset>
+        <!--end of grouping elements-->
+
+        <fieldset>
+            <legend> Your Review</legend>
+            <label>How did you hear about us?</label>
+            <!--start of drop down menu-->
+            <select name="hear">
+                <option value="Google">Google</option>
+                <option value="TV">TV</option>
+                <option value="News">News</option>
+            </select>
+            <!--end of drop down menu-->
+            <br>
+            <label>Would you visit again?</label><br>
+            <!--start of radio button-->
+            <input type="radio" name="visit" value="Yes" checked="checked" />
+            <label for="Yes">Yes</label>
+            <input type="radio" name="visit" value="No" />
+            <label for="No">No</label>
+            <input type="radio" name="visit" value="May be" />
+            <label for="No">Maybe</label><br>
+            <!--end of radio button-->
+            <label>Comments:</label><br>
+            <textarea name="comments" cols="50" rows="4" placeholder="Enter your comment here"></textarea><br>
+            <!--checkbox-->
+            <input type="checkbox" checked="checked">
+            <label>Sign me up for email updates</label><br>
+            <input type="Submit" value="Submit review ">
+            <!--end of checkbox-->
+
+        </fieldset>
+    </form>
+</body>
+
+
+</html>

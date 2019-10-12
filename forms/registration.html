@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        Registration Form
+    </title>
+    <style>
+        .button {
+
+            background-color: #4CAF50;
+            color: white;
+            padding: 2px 2px;
+            margin: 2px 0;
+            border: none;
+            width: 70px;
+            opacity: 0.9;
+        }
+        form{
+            background-color:aliceblue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="www.google.com" method="get">
+       <!-- alligning to center-->
+        <center>
+            <table >
+                <h1>Registration Form</h1>
+                <tr>
+                    <td>
+                        <label>First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="firstname" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name:</label>
+                    </td>
+                    <td> <input type="text" name="lastname" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Username:</label>
+                    </td>
+                    <td> <input type="text" name="username" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:</label>
+                    </td>
+                    <td> <input type="password" name="password" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:</label>
+                    </td>
+                    <td> <input type="email" name="email" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile No:</label>
+                    </td>
+                    <td> <input type="tel" name="mobile" required="required"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label></label>
+                    </td>
+                    <td>
+                        <label>City:</label>
+                         <!--starting drop down menu-->
+                           <select name="city">
+                            <option value="Thrissur">Thrissur</option>
+                            <option value="kottayam">Kottayam</option>
+                            <option value="Kollam">Kollam</option>
+                            <option value="Kollam">Kochi</option>
+                        </select>
+                        <!--closing drop down menu-->
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label></label>
+                    </td>
+                    <td>
+                        <button type="submit" class="button">Register</button>
+                        <a href="login.html">Back to home</a>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+             <!--closing  table tag-->
+        </center>
+        
+    </form>
+
+</body>
+
+</html>
