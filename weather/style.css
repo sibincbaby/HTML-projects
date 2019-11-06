@@ -1,0 +1,111 @@
+body {
+    font-family: 'Tangerine', serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_bar {
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: white;
+    border: none;
+}
+
+.weather {
+    /*    color: #4aa1f3 !important;*/
+    color: green;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav_list > li > a {
+    color: forestgreen;
+    font-weight: 500;
+}
+
+#logo {
+    max-height: 42px;
+    margin-right: 8px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+#headRow {
+    background: url(Images/bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#colHeadText1 {
+    color: white;
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+#colHeadText2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+ul#list_item {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#cityDiv {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type='text'] {
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity {
+    height: 40px;
+    font-weight: bold;
+}
+
+#errorCity {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#showWeather {
+    width: 60%;
+    margin: auto;
+    background-color: #4aa1f3;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+
+#rowDiv {
+    margin: auto;
+    width: 100%;
+}
+
+#colDesc h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#colDesc {
+    border: 1px solid #e7e7e7;
+    margin: 0 auto;
+    height: auto;
+}
